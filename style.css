@@ -1407,6 +1407,7 @@ footer a:hover {
   }
 }
 
+
 /* iPhone phones - max-width: 430px */
 @media (max-width: 430px) {
   /* Hide background video on iPhone */
@@ -1414,10 +1415,10 @@ footer a:hover {
     display: none !important;
   }
 
-  /* Set fixed bricks background for iPhone */
+  /* Set fixed bricks background for iPhone - whole image, not zoomed */
   body {
     background-image: url('images/bricks2.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1427,7 +1428,7 @@ footer a:hover {
   /* Ensure html also has the fixed background */
   html {
     background-image: url('images/bricks2.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
