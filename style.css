@@ -1415,13 +1415,11 @@ footer a:hover {
     scroll-behavior: auto !important;
   } 
 
-/* ------------------------------------------------------------ */
-/* iPHONE SAFARI ONLY – 100% FIXED BACKGROUND                    */
-/* ------------------------------------------------------------ */
-@supports (-webkit-touch-callout: none) {
+
 @media (max-width: 430px) {
     body {
         background-color: #000000; /* crna pozadina */ 
     }
 }
+
 
