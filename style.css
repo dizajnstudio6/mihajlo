@@ -711,6 +711,7 @@ footer a:hover {
     font-size: 16px;
     color: #white ;
     cursor: pointer;
+    font-color: #white; 
     padding: 2px 4px;
     line-height: 1;
     transform: scaleX(1.3) scaleY(0.8);
@@ -726,6 +727,7 @@ footer a:hover {
     cursor: pointer;
     padding: 2px 4px;
     line-height: 1;
+    font-color: #white; 
     transform: scaleX(1.2) scaleY(0.9);
   }
   
@@ -1420,8 +1422,9 @@ footer a:hover {
 
 
 /* Media query za sve iPhone uređaje (portrait) */
-@media screen and (max-width: 430px) {
-  .hero-title {
+@media screen and (max-width: 430px)  
+
+ .hero-title {
     font-size: 1.5rem;
     padding: 0;
     line-height: 1.3;
@@ -1474,8 +1477,7 @@ footer a:hover {
     margin-bottom: 15px;
     padding: 0;
     line-height: 1.3;
-    font-family: 'Arial', sans; 
-    font-color: #white ;
+    font-family: 'Nabla', cursive;
     text-transform: uppercase;
   }
   
@@ -1766,27 +1768,7 @@ footer a:hover {
   .footer-link:hover {
     color: #4cff6e !important;
     text-shadow: 0 0 15px #4cff6e, 0 0 25px #4cff6e, 0 0 35px #4cff6e;
-  } 
-
-  
-  /* --- BOJA HAMBURGER MENIJA --- */
-  .menu-toggle {
-    color: white !important;
   }
-  
-  /* Ako želiš i da "X" dugme za zatvaranje bude belo, dodaj i ovo: */
-  .close-menu {
-    color: white !important;
-  }
-
-  /* --- POZADINA SAMO ZA iPHONE --- */
-  body {
-    background: url("images/pocetnaajfon.jpg") no-repeat center center fixed;
-    background-size: cover;
-    overflow-x: hidden;
-    background-attachment: fixed; 
-  }  
-
   
   
 } 
@@ -1794,6 +1776,7 @@ footer a:hover {
 
 
    
+
 
 
 
