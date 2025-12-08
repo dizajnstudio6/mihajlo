@@ -231,3 +231,40 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
+
+
+
+// iPhone detection (najpreciznije)
+function isIphone() {
+    return /iPhone|iPod/i.test(navigator.userAgent) && !window.MSStream;
+}
+
+// iPhone-specific code
+if (isIphone()) {
+
+    console.log("iPhone Safari detektovan — primenjujem posebne efekte.");
+
+    /* Primer: Pojačaj blur u meniju samo na iPhone */
+    const mobileMenu = document.querySelector(".mobile-menu");
+    if (mobileMenu) {
+        mobileMenu.style.backdropFilter = "blur(16px)";
+    }
+
+    /* Primer: Dodaj light fade na hero video */
+    const hero = document.querySelector(".hero");
+    if (hero) {
+        hero.style.transition = "opacity 0.3s ease";
+        hero.style.opacity = "0.95";
+    }
+
+    /* Primer: Hambuger opcije fade-in samo za iPhone */
+    const links = document.querySelectorAll(".mobile-menu a");
+    links.forEach((link, i) => {
+        link.style.opacity = "0";
+        setTimeout(() => {
+            link.style.transition = "opacity 0.5s ease";
+            link.style.opacity = "1";
+        }, 150 * i);
+    });
+}
+ 
