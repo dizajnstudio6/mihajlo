@@ -1414,4 +1414,50 @@ footer a:hover {
     transition: none !important;
     scroll-behavior: auto !important;
   }
+
+
+  /* ------------------------------- */
+/* iPHONE – SPECIAL STYLES */
+/* Sve do 430px širine (iPhone SE do iPhone 14 Pro Max) */
+/* ------------------------------- */
+@media screen and (max-width: 430px) {
+
+    /* Pozadina za iPhone */
+    body, .hero {
+        background: url('images/pozadinaajfon.jpg') no-repeat center center/cover;
+    }
+
+    /* Hamburger meni – bele linije */
+    .hamburger span { 
+      background-color: #ffffff !important; 
+      font-color: #fff; 
+    }
+
+    /* Tekst u mobilnom meniju – beo */
+    nav.mobile-menu a {
+        color: #ffffff !important;
+    }
+
+    /* Mobilni meni pozadina tamno-zelena */
+    nav.mobile-menu {
+        background: #1f3d28 !important;
+    }
+
+    /* Logo da bude svetliji na iPhone-u */
+    .logo {
+        filter: brightness(1.2);
+    }
+
+    /* Veći spacing da sve izgleda premium */
+    section {
+        padding: 70px 20px;
+    }
+
+    /* Slike da budu mekše i zaobljene */
+    img {
+        border-radius: 12px;
+    } 
+
+  
 }
+
