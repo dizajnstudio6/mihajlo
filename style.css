@@ -1424,7 +1424,11 @@ footer a:hover {
 
     /* Pozadina za iPhone */
     body, .hero {
-        background: url('images/pozadinaajfon.jpg') no-repeat center center/cover;
+        background: url('images/ubaci123.jpg') no-repeat center center/cover;
+    } 
+
+      body, .hero {
+        background: url('ubaci123.jpg') no-repeat center center/cover;
     }
 
     /* Hamburger meni – bele linije */
@@ -1460,4 +1464,5 @@ footer a:hover {
 
   
 }
+
 
