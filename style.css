@@ -1413,88 +1413,7 @@ footer a:hover {
     animation: none !important;
     transition: none !important;
     scroll-behavior: auto !important;
-  }
-
-
-  /* ------------------------------- */
-/* iPHONE – SPECIAL STYLES */
-/* Sve do 430px širine (iPhone SE do iPhone 14 Pro Max) */
-/* ------------------------------- */
-@media screen and (max-width: 430px) {
-
-    /* Pozadina za iPhone */
-    body, .hero {
-        background: url('images/ubaci123.jpg') no-repeat center center/cover;
-    } 
-
-      body, .hero {
-        background: url('ubaci123.jpg') no-repeat center center/cover;
-    }
-
-    /* Hamburger meni – bele linije */
-    .hamburger span { 
-      background-color: #ffffff !important; 
-      font-color: #fff; 
-    }
-
-    /* Tekst u mobilnom meniju – beo */
-    nav.mobile-menu a {
-        color: #ffffff !important;
-    }
-
-    /* Mobilni meni pozadina tamno-zelena */
-    nav.mobile-menu {
-        background: #1f3d28 !important;
-    }
-
-    /* Logo da bude svetliji na iPhone-u */
-    .logo {
-        filter: brightness(1.2);
-    }
-
-    /* Veći spacing da sve izgleda premium */
-    section {
-        padding: 70px 20px;
-    }
-
-    /* Slike da budu mekše i zaobljene */
-    img {
-        border-radius: 12px;
-    } 
-
-  /* iPhone specifična verzija – hamburger meni opcije bele + sans font */
-@media screen and (max-width: 430px) {
-
-    /* Tekst linkova u hamburger meniju */
-    nav.mobile-menu a,
-    .mobile-menu a,
-    .mobile-nav a {
-        color: #ffffff !important;
-        font-family: "Helvetica Neue", Arial, sans-serif !important;
-        font-weight: 400;
-    }
-
-    /* Hamburger ikonica – bele crte */
-    .hamburger span,
-    .hamburger div,
-    .hamburger-line,
-    .menu-toggle span {
-        background-color: #ffffff !important;
-    }
-
-    /* Ako koristiš SVG hamburger */
-    .hamburger svg path {
-        stroke: #ffffff !important;
-    }
-
-    /* Pozadina mobilnog menija (preporučeno tamna za kontrast) */
-    nav.mobile-menu,
-    .mobile-menu,
-    .mobile-nav {
-        background: #1f3d28 !important; /* tvoja tamno zelena */
-    }  
-
-}
+  }  
 
 
   /* ------------------------------------------------------------ */
@@ -1505,7 +1424,7 @@ footer a:hover {
 
         /* POSEBNA POZADINA ZA iPHONE */
         body, .hero {
-            background: url('images/ubaci123.jpg') no-repeat center center/cover !important;
+            background: url('images/brick.jpg') no-repeat center center/cover !important;
         }
 
         /* BELI LINKOVI U HAMBURGER MENIJU */
@@ -1565,6 +1484,7 @@ footer a:hover {
         }
     }
 }
+
 
 
 
