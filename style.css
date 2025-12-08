@@ -1413,79 +1413,72 @@ footer a:hover {
     animation: none !important;
     transition: none !important;
     scroll-behavior: auto !important;
-  }  
+  } 
 
-
-  /* ------------------------------------------------------------ */
-/* iPHONE SAFARI ONLY (WebKit detection)                        */
+/* ------------------------------------------------------------ */
+/* iPHONE SAFARI ONLY – 100% FIXED BACKGROUND                    */
 /* ------------------------------------------------------------ */
 @supports (-webkit-touch-callout: none) {
     @media screen and (max-width: 430px) {
 
-        /* POSEBNA POZADINA ZA iPHONE */
-        body, .hero {
-            background: url('images/bricks2.jpg') no-repeat center center/cover !important;
+        /* Omogućavamo pozicioniranje */
+        body {
+            position: relative !important;
+            overflow-x: hidden;
+            background: none !important;
         }
 
-        /* BELI LINKOVI U HAMBURGER MENIJU */
+        /* FIKSNA POZADINA PREKO PSEUDO ELEMENTA */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+
+            background: url('images/bricks2.jpg') no-repeat center center / cover;
+            z-index: -1;
+
+            /* Ispod celog sajta */
+            pointer-events: none;
+        }
+
+        /* HAMBURGER MENI – bela slova */
         nav.mobile-menu a,
         .mobile-menu a,
         .mobile-nav a {
             color: #ffffff !important;
             font-family: "Helvetica Neue", Arial, sans-serif !important;
-            font-weight: 400;
-            letter-spacing: 0.5px;
         }
 
-        /* BELA HAMBURGER IKONICA (LINIJE) */
+        /* Bele linije hamburgera */
         .hamburger span,
-        .hamburger div,
         .hamburger-line,
         .menu-toggle span {
-            background-color: #ffffff !important;
+            background-color: #fff !important;
         }
 
-        /* AKO JE HAMBURGER SVG IKONICA */
         .hamburger svg path {
-            stroke: #ffffff !important;
+            stroke: #fff !important;
         }
 
-        /* POZADINA MOBILNOG MENIJA TAMNO ZELENA */
+        /* Pozadina mobilnog menija */
         nav.mobile-menu,
         .mobile-menu,
         .mobile-nav {
-            background: #1f3d28 !important;
+            background: rgba(20, 40, 25, 0.95) !important;
             backdrop-filter: blur(14px);
         }
 
-        /* VEĆI TOUCH-PADDING NA iPHONE */
+        /* Veći padding */
         .mobile-menu a {
             padding: 20px 0 !important;
         }
 
-        /* LOGO SVETLIJI NA iPHONE */
+        /* Logo svetliji */
         .logo {
             filter: brightness(1.2);
         }
-
-        /* APSTRAKTNI OBLICI – MANJE PROZIRNI */
-        .abstract-shape {
-            opacity: 0.25 !important;
-        }
-
-        /* MANJI TITLOVI – BOLJA ČITLJIVOST NA iPHONE */
-        h1, h2, h3 {
-            letter-spacing: 0.4px;
-        }
-
-        /* TASTATURA FIX ZA iPHONE (ZA FORME) */
-        input, textarea {
-            font-size: 16px !important; /* sprečava zoom bug */
-        }
     }
 }
-
-
-
-
-
