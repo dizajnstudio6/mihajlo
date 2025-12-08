@@ -1058,10 +1058,8 @@ footer a:hover {
   }
 }
 
-
-
-/* Extra small devices - 431px to 480px (not iPhone) */
-@media (min-width: 431px) and (max-width: 480px) {
+/* Extra small devices */
+@media (max-width: 480px) {
   #background-video {
     display: none;
   }
