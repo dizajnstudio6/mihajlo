@@ -1437,7 +1437,7 @@ footer a:hover {
 
   /* Set ubaci1234.jpg background for iPhone */
   body {
-    background-image: url('images/pocetnam123.jpg') !important;
+    background-image: url('images/pocetnaajfon.jpg') !important;
     background-size: cover !important;
     background-position: center center !important;
     background-attachment: fixed !important;
@@ -1446,7 +1446,7 @@ footer a:hover {
   }
 
   html {
-    background-image: url('images/pocetnam123.jpg') !important;
+    background-image: url('images/pocetnaajfon.jpg') !important;
     background-size: cover !important;
     background-position: center center !important;
     background-attachment: fixed !important;
@@ -1476,6 +1476,7 @@ footer a:hover {
     scroll-behavior: auto !important;
   }
 }
+
 
 
 
