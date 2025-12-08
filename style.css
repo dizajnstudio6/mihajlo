@@ -1061,8 +1061,28 @@ footer a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Extra small devices - 431px to 480px (NOT iPhone) */
-@media (min-width: 431px) and (max-width: 480px) {
+@media (min-width: 431px) and (max-width: 450px) {
   #background-video {
     display: none !important;
   }
@@ -1431,15 +1451,18 @@ footer a:hover {
   }
 }
 
-/* iPhone phones - max-width: 430px */
+/* iPhone phones - max-width: 430px - MUST BE LAST TO OVERRIDE */
 @media (max-width: 430px) {
   /* Hide background video on iPhone */
   #background-video {
     display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
   }
-
-  /* Set pocetnaajfon.jpg background for iPhone ONLY */
+  
+  /* Set pocetnaajfon.jpg background for iPhone ONLY - override everything */
   body {
+    background: url('images/pocetnaajfon.jpg') no-repeat center center fixed !important;
     background-image: url('images/pocetnaajfon.jpg') !important;
     background-size: cover !important;
     background-position: center !important;
@@ -1449,12 +1472,20 @@ footer a:hover {
   }
 
   html {
+    background: url('images/pocetnaajfon.jpg') no-repeat center center fixed !important;
     background-image: url('images/pocetnaajfon.jpg') !important;
     background-size: cover !important;
     background-position: center !important;
     background-attachment: fixed !important;
     background-repeat: no-repeat !important;
     background-color: #000 !important;
+  }
+  
+  /* Override any section backgrounds */
+  .section-bg,
+  section {
+    background: none !important;
+    background-image: none !important;
   }
 
   /* h2 with sans-serif font and white color */
