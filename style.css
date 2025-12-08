@@ -1426,3 +1426,54 @@ footer a:hover {
   }
 }
 
+
+
+/* iPhone phones - max-width: 430px */
+@media (max-width: 430px) {
+  /* Hide background video on iPhone */
+  #background-video {
+    display: none !important;
+  }
+
+  /* Set ubaci1234.jpg background for iPhone */
+  body {
+    background-image: url('images/ubaci1234.jpg') !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    background-color: #000 !important;
+  }
+
+  html {
+    background-image: url('images/ubaci1234.jpg') !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    background-color: #000 !important;
+  }
+
+  /* h2 with sans-serif font and neon green color */
+  h2 {
+    font-family: Arial, sans-serif !important;
+    color: #00ff41 !important;
+    text-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41, 0 0 30px #00ff41 !important;
+  }
+
+  .section-bg h2 {
+    font-family: Arial, sans-serif !important;
+    color: #00ff41 !important;
+    text-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41, 0 0 30px #00ff41 !important;
+  }
+}
+
+/* Prefer-reduced-motion: smanji animacije korisnicima koji to traže */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
