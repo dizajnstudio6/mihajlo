@@ -1058,8 +1058,10 @@ footer a:hover {
   }
 }
 
-/* Extra small devices */
-@media (max-width: 480px) {
+
+
+/* Extra small devices - 431px to 480px (not iPhone) */
+@media (min-width: 431px) and (max-width: 480px) {
   #background-video {
     display: none;
   }
@@ -1417,17 +1419,6 @@ footer a:hover {
   }
 }
 
-/* Prefer-reduced-motion: smanji animacije korisnicima koji to traže */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation: none !important;
-    transition: none !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-
-
 /* iPhone phones - max-width: 430px */
 @media (max-width: 430px) {
   /* Hide background video on iPhone */
@@ -1437,18 +1428,18 @@ footer a:hover {
 
   /* Set ubaci1234.jpg background for iPhone */
   body {
-    background-image: url('images/pocetnaajfon.jpg') !important;
+    background-image: url('images/ubaci1234.jpg') !important;
     background-size: cover !important;
-    background-position: center center !important;
+    background-position: center !important;
     background-attachment: fixed !important;
     background-repeat: no-repeat !important;
     background-color: #000 !important;
   }
 
   html {
-    background-image: url('images/pocetnaajfon.jpg') !important;
+    background-image: url('images/ubaci1234.jpg') !important;
     background-size: cover !important;
-    background-position: center center !important;
+    background-position: center !important;
     background-attachment: fixed !important;
     background-repeat: no-repeat !important;
     background-color: #000 !important;
@@ -1476,9 +1467,3 @@ footer a:hover {
     scroll-behavior: auto !important;
   }
 }
-
-
-
-
-
-
