@@ -1419,66 +1419,9 @@ footer a:hover {
 /* iPHONE SAFARI ONLY – 100% FIXED BACKGROUND                    */
 /* ------------------------------------------------------------ */
 @supports (-webkit-touch-callout: none) {
-    @media screen and (max-width: 430px) {
-
-        /* Omogućavamo pozicioniranje */
-        body {
-            position: relative !important;
-            overflow-x: hidden;
-            background: none !important;
-        }
-
-        /* FIKSNA POZADINA PREKO PSEUDO ELEMENTA */
-        body::before {
-            content: "";
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-
-            background: url('images/bricks2.jpg') no-repeat center center / cover;
-            z-index: -1;
-
-            /* Ispod celog sajta */
-            pointer-events: none;
-        }
-
-        /* HAMBURGER MENI – bela slova */
-        nav.mobile-menu a,
-        .mobile-menu a,
-        .mobile-nav a {
-            color: #ffffff !important;
-            font-family: "Helvetica Neue", Arial, sans-serif !important;
-        }
-
-        /* Bele linije hamburgera */
-        .hamburger span,
-        .hamburger-line,
-        .menu-toggle span {
-            background-color: #fff !important;
-        }
-
-        .hamburger svg path {
-            stroke: #fff !important;
-        }
-
-        /* Pozadina mobilnog menija */
-        nav.mobile-menu,
-        .mobile-menu,
-        .mobile-nav {
-            background: rgba(20, 40, 25, 0.95) !important;
-            backdrop-filter: blur(14px);
-        }
-
-        /* Veći padding */
-        .mobile-menu a {
-            padding: 20px 0 !important;
-        }
-
-        /* Logo svetliji */
-        .logo {
-            filter: brightness(1.2);
-        }
+@media (max-width: 430px) {
+    body {
+        background-color: #000000; /* crna pozadina */ 
     }
 }
+
