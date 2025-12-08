@@ -1424,7 +1424,7 @@ footer a:hover {
 
         /* POSEBNA POZADINA ZA iPHONE */
         body, .hero {
-            background: url('images/brick.jpg') no-repeat center center/cover !important;
+            background: url('images/bricks2.jpg') no-repeat center center/cover !important;
         }
 
         /* BELI LINKOVI U HAMBURGER MENIJU */
@@ -1484,6 +1484,7 @@ footer a:hover {
         }
     }
 }
+
 
 
 
