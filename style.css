@@ -1415,3 +1415,20 @@ footer a:hover {
     scroll-behavior: auto !important;
   }
 }
+
+
+@media (max-width: 480px) {
+    body {
+        background-color: #000000; /* crna pozadina */
+    }
+}
+
+
+@supports (-webkit-touch-callout: none) {
+    @media screen and (max-width: 430px) {
+        body {
+            background-color: #000000; /* crna pozadina */
+        }
+    }
+}
+
