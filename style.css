@@ -1768,13 +1768,18 @@ footer a:hover {
     color: #4cff6e !important;
     text-shadow: 0 0 15px #4cff6e, 0 0 25px #4cff6e, 0 0 35px #4cff6e;
   } 
-  
+
+  body {
+  background: url("images/pocetnaajfon.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
   
 } 
 
 
 
    
+
 
 
 
