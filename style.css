@@ -1781,7 +1781,7 @@ footer a:hover {
 
   /* --- POZADINA SAMO ZA iPHONE --- */
   body {
-    background: url("images/pocetna.jpg") no-repeat center center fixed;
+    background: url("images/pocetnaajfon.jpg") no-repeat center center fixed;
     background-size: cover;
     overflow-x: hidden;
     background-attachment: fixed; 
@@ -1794,6 +1794,7 @@ footer a:hover {
 
 
    
+
 
 
 
