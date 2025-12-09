@@ -1467,10 +1467,12 @@ footer a:hover {
 
 
 
-  /* Hamburger menu items - sans-serif font and neon green color */
-  .nav-links a {
+  /* Hamburger menu items - sans-serif font and neon green color - ONLY iPhone */
+  .nav-links a,
+  .nav-links.open a {
     font-family: Arial, sans-serif !important;
     color: #00ff41 !important;
+    text-transform: none !important;
   }
 }
 
