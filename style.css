@@ -1480,6 +1480,15 @@ footer a:hover {
     background: linear-gradient(45deg, #24f02e, #4cff6e, #00ff41) !important;
     box-shadow: 0 0 20px #00ff41 !important;
   }  
+
+/* iPhone h1 + span NEON GREEN */ 
+  h1, .hero-title, h1 span, .hero-title span {
+    color: #00ff41 !important;
+    text-shadow: 0 0 10px #00ff41,
+                 0 0 20px #00ff41,
+                 0 0 30px #00ff41 !important;
+  }   
+
   
 }
 
@@ -1491,4 +1500,5 @@ footer a:hover {
     scroll-behavior: auto !important;
   }
 }
+
 
