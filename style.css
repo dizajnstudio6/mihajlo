@@ -1459,6 +1459,28 @@ footer a:hover {
     color: #00ff41 !important;
     text-transform: none !important;
   }
+
+  /* iPhone h1 NEON GREEN + buttons NEON GREEN */ 
+
+  h1, .hero-title {
+    color: #00ff41 !important;
+    text-shadow: 0 0 10px #00ff41,
+                 0 0 20px #00ff41,
+                 0 0 30px #00ff41 !important;
+  }
+
+  .cta-btn {
+    background: linear-gradient(45deg, #00ff41, #24f02e, #4cff6e) !important;
+    color: #000 !important;
+    box-shadow: 0 0 12px #00ff41 !important; 
+    border: none !important;
+  }
+
+  .cta-btn:hover {
+    background: linear-gradient(45deg, #24f02e, #4cff6e, #00ff41) !important;
+    box-shadow: 0 0 20px #00ff41 !important;
+  }  
+  
 }
 
 /* Prefer-reduced-motion: smanji animacije korisnicima koji to traže */
@@ -1469,3 +1491,4 @@ footer a:hover {
     scroll-behavior: auto !important;
   }
 }
+
