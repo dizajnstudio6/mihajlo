@@ -1463,10 +1463,10 @@ footer a:hover {
   /* iPhone h1 NEON GREEN + buttons NEON GREEN */ 
 
   h1, .hero-title {
-    color: #00ff41 !important;
-    text-shadow: 0 0 10px #00ff41,
-                 0 0 20px #00ff41,
-                 0 0 30px #00ff41 !important;
+    color: #white !important;
+    text-shadow: 0 0 10px #white,
+                 0 0 20px #white,
+                 0 0 30px #white !important;
   }
 
   .cta-btn {
@@ -1483,10 +1483,10 @@ footer a:hover {
 
 /* iPhone h1 + span NEON GREEN */ 
   h1, .hero-title, h1 span, .hero-title span {
-    color: #00ff41 !important;
-    text-shadow: 0 0 10px #00ff41,
-                 0 0 20px #00ff41,
-                 0 0 30px #00ff41 !important;
+    color: #white !important;
+    text-shadow: 0 0 10px #white,
+                 0 0 20px #white,
+                 0 0 30px #white !important;
   }   
 
   
@@ -1500,5 +1500,6 @@ footer a:hover {
     scroll-behavior: auto !important;
   }
 }
+
 
 
