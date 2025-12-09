@@ -28,7 +28,7 @@ header {
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
-  display: flex;
+  display: flex; 
   align-items: center;
   justify-content: space-between;
   padding: 0 30px;
@@ -1060,27 +1060,6 @@ footer a:hover {
 
 /* Extra small devices */
 @media (max-width: 480px) {
-  #background-video {
-    display: none !important;
-  }
-  
-  body {
-    background: url("images/pocetna.jpg") no-repeat center center fixed !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-attachment: fixed !important;
-    background-repeat: no-repeat !important;
-    overflow-x: hidden;
-  }
-  
-  html {
-    background: url("images/pocetna.jpg") no-repeat center center fixed !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-attachment: fixed !important;
-    background-repeat: no-repeat !important;
-  }
-
   .hero-title {
     font-size: 1.5rem;
     padding: 0;
@@ -1436,4 +1415,3 @@ footer a:hover {
     scroll-behavior: auto !important;
   }
 }
-
