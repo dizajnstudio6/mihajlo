@@ -1465,3 +1465,14 @@ footer a:hover {
   }
 }
 
+
+
+  /* Hamburger menu items - sans-serif font and neon green color */
+  .nav-links a {
+    font-family: Arial, sans-serif !important;
+    color: #00ff41 !important;
+  }
+}
+
+
+
