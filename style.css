@@ -1058,37 +1058,14 @@ footer a:hover {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Extra small devices - 431px to 480px (NOT iPhone) */
-@media (max-width: 450px) {
+/* Extra small devices */
+@media (max-width: 480px) {
   #background-video {
     display: none !important;
   }
   
   body {
-    background: url("images/novapoyadina.jpg") no-repeat center center fixed !important;
+    background: url("images/pocetna.jpg") no-repeat center center fixed !important;
     background-size: cover !important;
     background-position: center !important;
     background-attachment: fixed !important;
@@ -1097,7 +1074,7 @@ footer a:hover {
   }
   
   html {
-    background: url("images/novapoyadina.jpg") no-repeat center center fixed !important;
+    background: url("images/pocetna.jpg") no-repeat center center fixed !important;
     background-size: cover !important;
     background-position: center !important;
     background-attachment: fixed !important;
@@ -1448,55 +1425,6 @@ footer a:hover {
   .footer-link:hover {
     color: #4cff6e !important;
     text-shadow: 0 0 15px #4cff6e, 0 0 25px #4cff6e, 0 0 35px #4cff6e;
-  }
-}
-
-/* iPhone phones - max-width: 430px - MUST BE LAST TO OVERRIDE */
-@media (max-width: 430px) {
-  /* Hide background video on iPhone */
-  #background-video {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-  }
-  
-  /* Set pocetnaajfon.jpg background for iPhone ONLY - override everything */
-  body {
-    background: url('images/pocetnaajfon.jpg') no-repeat center center fixed !important;
-    background-image: url('images/pocetnaajfon.jpg') !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-attachment: fixed !important;
-    background-repeat: no-repeat !important;
-    background-color: #000 !important;
-  }
-
-  html {
-    background: url('images/pocetnaajfon.jpg') no-repeat center center fixed !important;
-    background-image: url('images/pocetnaajfon.jpg') !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-attachment: fixed !important;
-    background-repeat: no-repeat !important;
-    background-color: #000 !important;
-  }
-  
-  /* Override any section backgrounds */
-  .section-bg,
-  section {
-    background: none !important;
-    background-image: none !important;
-  }
-
-  /* h2 with sans-serif font and white color */
-  h2 {
-    font-family: Arial, sans-serif !important;
-    color: #ffffff !important;
-  }
-
-  .section-bg h2 {
-    font-family: Arial, sans-serif !important;
-    color: #ffffff !important;
   }
 }
 
