@@ -1415,3 +1415,53 @@ footer a:hover {
     scroll-behavior: auto !important;
   }
 }
+
+
+
+/* iPhone phones - max-width: 440px */
+@media (max-width: 440px) {
+  /* Hide background video on iPhone */
+  #background-video {
+    display: none !important;
+  }
+
+  /* Set pocetna1234.jpg background for iPhone */
+  body {
+    background-image: url('images/pocetna1234.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    background-color: #000 !important;
+  }
+
+  html {
+    background-image: url('images/pocetna1234.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    background-color: #000 !important;
+  }
+
+  /* h2 with sans-serif font and white color */
+  h2,
+  .section-bg h2,
+  #onama h2,
+  #kontakt h2,
+  #shop h2,
+  #galerija h2 {
+    font-family: Arial, sans-serif !important;
+    color: #ffffff !important;
+  }
+}
+
+/* Prefer-reduced-motion: smanji animacije korisnicima koji to traže */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
