@@ -1058,8 +1058,16 @@ footer a:hover {
   }
 }
 
-/* Extra small devices */
-@media (max-width: 480px) {
+
+
+
+
+
+
+
+
+/* Extra small devices - 441px to 480px (NOT iPhone) */
+@media (min-width: 380px) and (max-width: 480px) {
   .hero-title {
     font-size: 1.5rem;
     padding: 0;
@@ -1407,19 +1415,8 @@ footer a:hover {
   }
 }
 
-/* Prefer-reduced-motion: smanji animacije korisnicima koji to traže */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation: none !important;
-    transition: none !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-
-
 /* iPhone phones - max-width: 440px */
-@media (max-width: 440px) {
+@media (max-width: 375px) {
   /* Hide background video on iPhone */
   #background-video {
     display: none !important;
@@ -1454,18 +1451,6 @@ footer a:hover {
     font-family: Arial, sans-serif !important;
     color: #ffffff !important;
   }
-}
-
-/* Prefer-reduced-motion: smanji animacije korisnicima koji to traže */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation: none !important;
-    transition: none !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-
 
   /* Hamburger menu items - sans-serif font and neon green color - ONLY iPhone */
   .nav-links a,
@@ -1476,5 +1461,11 @@ footer a:hover {
   }
 }
 
-
-
+/* Prefer-reduced-motion: smanji animacije korisnicima koji to traže */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
