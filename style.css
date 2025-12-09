@@ -1460,36 +1460,26 @@ footer a:hover {
     text-transform: none !important;
   }
 
-  /* iPhone h1 NEON GREEN + buttons NEON GREEN */ 
-
+ /* iPhone h1 NEON GREEN + buttons NEON GREEN */ 
   h1, .hero-title {
-    color: #white !important;
-    text-shadow: 0 0 10px #white,
-                 0 0 20px #white,
-                 0 0 30px #white !important;
+    color: #00ff41 !important;
+    text-shadow: 0 0 10px #00ff41,
+                 0 0 20px #00ff41,
+                 0 0 30px #00ff41 !important;
   }
 
   .cta-btn {
     background: linear-gradient(45deg, #00ff41, #24f02e, #4cff6e) !important;
     color: #000 !important;
-    box-shadow: 0 0 12px #00ff41 !important; 
+    box-shadow: 0 0 12px #00ff41 !important;
     border: none !important;
   }
 
   .cta-btn:hover {
     background: linear-gradient(45deg, #24f02e, #4cff6e, #00ff41) !important;
     box-shadow: 0 0 20px #00ff41 !important;
-  }  
+  } 
 
-/* iPhone h1 + span NEON GREEN */ 
-  h1, .hero-title, h1 span, .hero-title span {
-    color: #white !important;
-    text-shadow: 0 0 10px #white,
-                 0 0 20px #white,
-                 0 0 30px #white !important;
-  }   
-
-  
 }
 
 /* Prefer-reduced-motion: smanji animacije korisnicima koji to traže */
@@ -1500,6 +1490,7 @@ footer a:hover {
     scroll-behavior: auto !important;
   }
 }
+
 
 
 
